@@ -1,4 +1,4 @@
-package com.example.androidcourse.DessertLifeCycle
+package com.example.androidcourse.dessertLifeCycle
 
 import android.content.ActivityNotFoundException
 import android.os.Bundle

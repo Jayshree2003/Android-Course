@@ -24,6 +24,13 @@
     <color name="grey_text_color">#99000000</color>
     <color name="grey_button_color">#606060</color>
     <color name="white_text_color">#ffffff</color>
+    //sleep=1
+    <color name="colorPrimary1">#6ab343</color>
+    <color name="colorPrimaryDark1">#388310</color>
+    <color name="colorAccent1">#6ab343</color>
+
+    <color name="green_color1">#388310</color>
+    <color name="white_text_color1">#f0f0f0</color>
 
 
 </resources>

@@ -2,8 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
-        android:name=".DessertLifeCycle.PusherApplication"
+        android:name=".dessertLifeCycle.PusherApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,25 +16,30 @@
         android:theme="@style/Theme.AndroidCourse"
         tools:targetApi="31">
         <activity
-            android:name=".Architecture.ArchitectureMainActivity"
+            android:name=".trackmysleepquality.TrackSleepMainActivity"
             android:exported="false" />
         <activity
-            android:name=".LifeCycles.LifeCycleActivity4"
+            android:name=".architecture.ArchitectureMainActivity"
             android:exported="false" />
         <activity
-            android:name=".LifeCycles.LifeCycleActivity3"
+            android:name=".lifeCycles.LifeCycleActivity4"
             android:exported="false" />
-       <!-- <activity
+        <activity
+            android:name=".lifeCycles.LifeCycleActivity3"
+            android:exported="false" />
+        <!--
+ <activity
             android:name=".architecture.UIActivity"
-            android:exported="false" />-->
+            android:exported="false" />
+        -->
         <activity
-            android:name=".DessertLifeCycle.ModuleLifeCycleActivity"
+            android:name=".dessertLifeCycle.ModuleLifeCycleActivity"
             android:exported="false" />
         <activity
-            android:name=".LifeCycles.LifeCycleActivity2"
+            android:name=".lifeCycles.LifeCycleActivity2"
             android:exported="false" />
         <activity
-            android:name=".LifeCycles.LifeCycleActivity"
+            android:name=".lifeCycles.LifeCycleActivity"
             android:exported="false" />
         <activity
             android:name=".DiceRollerActivity"

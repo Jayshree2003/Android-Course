@@ -1,15 +1,13 @@
-package com.example.androidcourse.LifeCycles
+package com.example.androidcourse.lifeCycles
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.androidcourse.R
 import com.example.androidcourse.databinding.ActivityLifeCycle2Binding
-import com.example.androidcourse.databinding.ActivityLifeCycleBinding
 
 class LifeCycleActivity2 : AppCompatActivity() {
     private lateinit var binding: ActivityLifeCycle2Binding

@@ -5,13 +5,15 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
 import androidx.databinding.DataBindingUtil
-import com.example.androidcourse.Architecture.ArchitectureMainActivity
-import com.example.androidcourse.DessertLifeCycle.ModuleLifeCycleActivity
+import com.example.androidcourse.architecture.ArchitectureMainActivity
+//import com.example.androidcourse.dessertLifeCycle.ModuleLifeCycleActivity
 
-import com.example.androidcourse.LifeCycles.LifeCycleActivity
+//import com.example.androidcourse.lifeCycles.LifeCycleActivity
 import com.example.androidcourse.databinding.ActivityMainBinding
+import com.example.androidcourse.dessertLifeCycle.ModuleLifeCycleActivity
+import com.example.androidcourse.lifeCycles.LifeCycleActivity
+import com.example.androidcourse.trackmysleepquality.TrackSleepMainActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding
@@ -52,6 +54,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnArchitecture.setOnClickListener {
             val intent4=Intent(this, ArchitectureMainActivity::class.java)
             startActivity(intent4)
+        }
+        binding.btnSleep.setOnClickListener {
+            val intent5= Intent(this, TrackSleepMainActivity::class.java)
+            startActivity(intent5)
         }
     }
 }
