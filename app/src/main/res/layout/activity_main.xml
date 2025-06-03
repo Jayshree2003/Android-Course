@@ -62,10 +62,10 @@
             android:id="@+id/btn_sleep"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
             android:text="Sleep Tracker"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.47"
             app:layout_constraintStart_toEndOf="@+id/btn_architecture"
             app:layout_constraintTop_toBottomOf="@+id/btn_modulelifecycle" />
 
@@ -78,5 +78,15 @@
             app:layout_constraintBaseline_toBaselineOf="@+id/btn_sleep"
 
             app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btn_recyclertask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycler"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/btn_architecture"
+            app:layout_constraintTop_toBottomOf="@+id/btn_sleep" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

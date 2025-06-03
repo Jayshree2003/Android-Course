@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.databinding.DataBindingUtil
+/*import androidx.databinding.DataBindingUtil*/
 import com.example.androidcourse.architecture.ArchitectureMainActivity
 //import com.example.androidcourse.dessertLifeCycle.ModuleLifeCycleActivity
 
@@ -13,6 +14,7 @@ import com.example.androidcourse.architecture.ArchitectureMainActivity
 import com.example.androidcourse.databinding.ActivityMainBinding
 import com.example.androidcourse.dessertLifeCycle.ModuleLifeCycleActivity
 import com.example.androidcourse.lifeCycles.LifeCycleActivity
+import com.example.androidcourse.recyclertask.EmployeeForm
 import com.example.androidcourse.trackmysleepquality.TrackSleepMainActivity
 
 class MainActivity : AppCompatActivity() {
@@ -57,6 +59,11 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnSleep.setOnClickListener {
             val intent5= Intent(this, TrackSleepMainActivity::class.java)
+            startActivity(intent5)
+        }
+
+        binding.btnRecyclertask.setOnClickListener{
+            val intent5= Intent(this, EmployeeForm::class.java)
             startActivity(intent5)
         }
     }
