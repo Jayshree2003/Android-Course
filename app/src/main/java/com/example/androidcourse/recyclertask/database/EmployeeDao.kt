@@ -11,4 +11,6 @@ interface EmployeeDao {
 
     @Query("SELECT * FROM employee")
     suspend fun getAllEmployees(): List<EmployeeModel>
+
+
 }
